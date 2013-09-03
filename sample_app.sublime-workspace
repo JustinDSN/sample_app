@@ -3,15 +3,23 @@
 	{
 		"selected_items":
 		[
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"user_",
+				"user_with_same_email"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
+			"file": ".rspec",
 			"settings":
 			{
-				"buffer_size": 737,
+				"buffer_size": 13,
 				"line_ending": "Unix"
 			}
 		}
@@ -19,11 +27,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			]
 		],
-		"width": 0.0
+		"width": 448.0
 	},
 	"console":
 	{
@@ -43,17 +55,40 @@
 	},
 	"file_history":
 	[
+		"/Users/Justin/rails_projects/sample_app/app/helpers/users_helper.rb",
+		"/Users/Justin/rails_projects/sample_app/app/views/users/show.html.erb",
+		"/Users/Justin/rails_projects/sample_app/spec/requests/user_pages_spec.rb",
+		"/Users/Justin/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/Users/Justin/rails_projects/sample_app/app/views/shared/_error_messages.html.erb",
+		"/Users/Justin/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/Users/Justin/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/Users/Justin/rails_projects/sample_app/app/controllers/users_controller.rb",
+		"/Users/Justin/rails_projects/sample_app/config/environments/production.rb",
+		"/Users/Justin/rails_projects/sample_app/spec/factories.rb",
+		"/Users/Justin/rails_projects/sample_app/config/environments/test.rb",
+		"/Users/Justin/rails_projects/sample_app/Gemfile",
+		"/Users/Justin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Justin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Justin/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/Users/Justin/rails_projects/sample_app/config/routes.rb",
+		"/Users/Justin/rails_projects/sample_app/app/models/user.rb",
+		"/Users/Justin/rails_projects/sample_app/db/migrate/20130827174852_add_index_to_users_email.rb",
+		"/Users/Justin/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/Users/Justin/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/Users/Justin/rails_projects/sample_app/spec/support/utilities.rb",
+		"/Users/Justin/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
+		"/Users/Justin/rails_projects/sample_app/app/views/layouts/_header.html.erb",
+		"/Users/Justin/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
+		"/Users/Justin/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/Justin/rails_projects/sample_app/app/views/layouts/_shim.html.erb",
+		"/Users/Justin/rails_projects/sample_app/config/application.rb",
+		"/Users/Justin/rails_projects/sample_app/example_user.rb",
+		"/Users/Justin/rails_projects/sample_app/app/helpers/application_helper.rb",
 		"/Users/Justin/rails_projects/sample_app/Guardfile",
 		"/Users/Justin/rails_projects/sample_app/spec/spec_helper.rb",
 		"/Users/Justin/rails_projects/sample_app/.rspec",
-		"/Users/Justin/rails_projects/sample_app/Gemfile",
 		"/Users/Justin/rails_projects/sample_app/app/views/static_pages/about.html.erb",
 		"/Users/Justin/rails_projects/sample_app/app/views/static_pages/help.html.erb",
-		"/Users/Justin/rails_projects/sample_app/app/views/static_pages/home.html.erb",
-		"/Users/Justin/rails_projects/sample_app/config/routes.rb",
-		"/Users/Justin/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
-		"/Users/Justin/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
-		"/Users/Justin/rails_projects/sample_app/app/views/layouts/application.html.erb",
 		"/Users/Justin/rails_projects/sample_app/README.rdoc",
 		"/Users/Justin/rails_projects/sample_app/config/initializers/secret_token.rb",
 		"/Users/Justin/rails_projects/sample_app/.gitignore",
@@ -68,11 +103,11 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -82,6 +117,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"config",
+			"\n",
+			"false",
+			"uniqueness",
+			"'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -89,6 +129,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -104,26 +145,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
-					"semi_transient": false,
+					"file": ".rspec",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 737,
+						"buffer_size": 13,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -136,11 +175,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -168,7 +207,7 @@
 	"project": "sample_app.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -202,7 +241,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 218.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
